@@ -6,9 +6,19 @@ $(document).ready(() => {
     $('nav ul li a').on('click', function (e) {
         if (this.hash !== '') {
             const hash = this.hash;
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top - 140 + 'px'
-            }, 1100)
+            if (hash === "#work") {
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top - 70
+                }, 1100)
+            } else if (hash === "#about") {
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top + 160
+                }, 1100)
+            } else {
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 1100)
+            }
         }
     })
 })
