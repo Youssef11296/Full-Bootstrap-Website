@@ -39,6 +39,7 @@
     height: 80px;
     border-radius: 50%;
     line-height: 80px;
+    padding-left: 6px;
     text-align: center;
     font-size: 3rem;
     cursor: pointer;
