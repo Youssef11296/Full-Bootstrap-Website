@@ -31,6 +31,17 @@ html {
     margin: 20px auto;
 }
 
+/* UL */
+ul li {
+    background-color: transparent;
+    border: none;
+}
+
+/* Anchors */
+a {
+    outline: none;
+}
+
 /* Work Section Style */
 .work {
     background-color: #f1f1f1;
